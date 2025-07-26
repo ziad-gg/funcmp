@@ -26,7 +26,7 @@ const models = {};
 })();
 
 const dic = {
-    'sheap': 'photosheap',
+    'sheep': 'photosheap', // joke btw
     'pizza': 'photopizza'
 }
 
