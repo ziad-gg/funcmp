@@ -1,0 +1,22 @@
+{
+  "name": "funcmp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "funcaptchai",
+    "funcap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "onnxruntime-node": "^1.22.0-rev",
+    "sharp": "^0.34.3"
+  }
+}
