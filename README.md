@@ -1,7 +1,7 @@
 ### Supported Variants
 | Variant Name | Description | Available |
 |--------------|-------------|-----------|
-| photosheap | photosheap model | ✅ |
+| photosheep | photosheep model | ✅ |
 | photopizza | photopizza model | ✅ |
 
 ### Example Request
@@ -9,7 +9,7 @@
 ```json
 {
   "image": "base64_encoded_image_data_here",
-  "variant": "photosheap"
+  "variant": "photosheep"
 }
 ```
 

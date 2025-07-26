@@ -27,6 +27,7 @@ const models = {};
 
 const dic = {
     'sheep': 'photosheap', // joke btw
+    'photosheep': 'photosheap', // joke btw
     'pizza': 'photopizza'
 }
 
