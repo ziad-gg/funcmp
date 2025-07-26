@@ -2,3 +2,4 @@ node_modules
 package-lock.json
 models/**.pt
 models/**.onnx
+models/require.txt

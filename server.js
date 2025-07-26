@@ -6,10 +6,11 @@ app.use(express.json());
 
 const ort = require('onnxruntime-node');
 const util = require('./util.js');
-
 const models = {};
 
 (async function () {
+    await require('./models/download.js')(); // Ensure models are downloaded before loading
+    
     const modelsDir = fs.readdirSync('models').filter(file => file.endsWith('.onnx'));
 
     for (const modelFile of modelsDir) {
